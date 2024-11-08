@@ -1,0 +1,51 @@
+.App {
+  text-align: left;
+  margin-left: 4px;
+
+}
+
+.input-box {
+  padding: 12px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: aqua;
+  text-align: center;
+  font-size: 16px;
+}
+
+.comment-btn {
+  background-color: purple;
+  padding: 16px;
+  color: white;
+  margin: 4px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the start */
+  align-items: flex-start; /* Align items to the start */
+  text-align: left; /* Ensure text is left-aligned */
+ 
+  padding: 10px; /* Optional: Add padding for spacing */
+}
+
+.btn {
+  font-size: 11px;
+  margin: 4px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.children-comment {
+  margin-left: 20px; /* Add more indentation for child comments */
+}
